@@ -78,6 +78,9 @@ p{margin:0 0 14px}
 .step-num{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;background:var(--navy);color:#fff;font-weight:700;margin-bottom:18px}
 .step p{color:var(--muted);margin:0}
 
+.soon{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:28px 0 0;color:var(--muted);font-size:16px}
+.soon strong{color:var(--navy)}
+
 /* features */
 .feature{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
 .feature-flip .phone{order:2}
