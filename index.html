@@ -3,30 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dockit | Every receipt, every item, sorted</title>
-<meta name="description" content="Dockit is a free receipt app that keeps every receipt, down to every item, in one place and syncs with Xero, MYOB and QuickBooks. Made in Brisbane.">
-<meta property="og:title" content="Dockit | Every receipt, every item, sorted">
-<meta property="og:description" content="A free receipt app that keeps every receipt, down to every item, and syncs with your accounting software.">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Dockit | Let's sort out your receipts</title>
+<meta name="description" content="Dockit is a free receipt app. Snap a photo of any receipt and Dockit keeps every item, files it by business, and syncs it with Xero, MYOB and QuickBooks. Made in Brisbane.">
+<meta property="og:title" content="Dockit | Let's sort out your receipts">
+<meta property="og:description" content="Snap a photo of any receipt. Dockit keeps every item, files it by business, and syncs it with your accounting software. Free, and your data is never sold.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="/css/site.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="css/site.css" rel="stylesheet">
 </head>
 <body>
 
 <header class="nav">
   <div class="wrap nav-inner">
-    <a href="/" class="logo" aria-label="Dockit home"><img src="/images/logo-navy.svg" alt="Dockit" width="117" height="32"></a>
-    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    <a href="./" class="logo" aria-label="Dockit home"><img src="images/logo-navy.svg" alt="Dockit" width="117" height="32"></a>
     <nav id="menu" class="menu" aria-label="Main">
       <a href="#how">How it works</a>
-      <a href="#merchants">For businesses</a>
-      <a href="#hello">About</a>
-      <a href="#contact" class="btn btn-navy btn-sm">Get in touch</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#about">About</a>
+      <a href="#business">For businesses</a>
     </nav>
+    <a href="#join" class="btn btn-red btn-sm nav-cta">Join the waitlist</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
   </div>
 </header>
 
@@ -34,76 +35,103 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="pill"><span class="dot"></span>Free · iOS &amp; Android coming soon</p>
-      <h1>Your receipts.<br><span class="red">Always</span> with you.</h1>
-      <p class="lead">Snap a photo of any receipt and Dockit saves every item, sorts it, and syncs it with your accounting software. All in one free app.</p>
-      <div class="hero-ctas">
-        <a href="#contact" class="btn btn-navy">Get early access</a>
-        <a href="#how" class="btn btn-outline">See how it works</a>
-      </div>
+  <div class="wrap hero-copy">
+    <p class="tag"><span class="dot"></span>Free, and your data is never sold</p>
+    <h1>Hi. Let's sort out<br>your receipts.</h1>
+    <p class="lead">Snap a photo of any receipt. Dockit keeps every item, files it by business, and syncs it with your accounting software. That's it.</p>
+    <div class="hero-ctas">
+      <a href="#join" class="btn btn-red">Join the waitlist</a>
+      <a href="#how" class="btn btn-soft">See how it works</a>
     </div>
-    <div class="hero-phones">
-      <figure class="phone phone-back"><img src="/images/app-receipt.jpg" alt="A receipt in the Dockit app showing each item, the total and 'Stored in Dockit'" width="640" height="1305"></figure>
-      <figure class="phone phone-front"><img src="/images/app-home.jpg" alt="The Dockit app home screen: 'Hi, Penelope' with this month's receipts" width="640" height="1305"></figure>
-      <div class="float-chip"><span class="dot"></span>Stored in Dockit</div>
-    </div>
+  </div>
+  <div class="hero-phones">
+    <span class="blob blob-blue" aria-hidden="true"></span>
+    <span class="blob blob-pink" aria-hidden="true"></span>
+    <figure class="phone phone-side"><img src="images/app-receipt.jpg" alt="An itemised receipt in Dockit" width="640" height="1305"></figure>
+    <figure class="phone phone-main"><img src="images/app-home.jpg" alt="The Dockit home screen: 'Hi, Penelope' with this month's receipts" width="640" height="1305"></figure>
+    <figure class="phone phone-side"><img src="images/app-businesses.jpg" alt="Dockit's businesses screen, with Xero connected" width="640" height="1305"></figure>
+    <p class="chip chip-left"><span class="dot"></span>Stored in Dockit</p>
+    <p class="chip chip-right">Synced to Xero ✓</p>
   </div>
 </section>
 
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="wrap about">
+    <img src="images/maddison.jpg" alt="Maddison, founder of Dockit, leaning in the doorway of her bar" width="640" height="800" loading="lazy" class="about-photo">
+    <div>
+      <p class="eyebrow">Who's behind Dockit</p>
+      <h2>Hi, I'm Maddison.</h2>
+      <p class="lead">I run hospitality venues in Brisbane, so I deal with a lot of receipts, both as a business owner and as a customer. The receipt apps I've used are fine, but basic. I wanted one that's actually nice to use, shows every item, and treats your data with respect. So I'm building it.</p>
+      <a href="mailto:maddison@dockit.au" class="text-link">Say hi: maddison@dockit.au</a>
+    </div>
+  </div>
+</section>
 
 <!-- HOW IT WORKS -->
 <section id="how" class="section">
   <div class="wrap">
-    <p class="eyebrow">How it works</p>
-    <h2>Built for real life.<br>Not for <span class="red">receipts.</span></h2>
+    <div class="center-head">
+      <p class="eyebrow">How it works</p>
+      <h2>Three steps. No shoebox.</h2>
+    </div>
     <div class="steps">
       <article class="step">
-        <span class="step-num">1</span>
-        <h3>Snap your receipt.</h3>
-        <p>Take a photo of any receipt, from your morning coffee to your new couch. That's it.</p>
+        <span class="num num-blue">1</span>
+        <h3>Snap your receipt</h3>
+        <p>Take a photo of any receipt, from your morning coffee to your new couch.</p>
       </article>
       <article class="step">
-        <span class="step-num">2</span>
-        <h3>Dockit reads every item.</h3>
-        <p>Every line on the receipt is saved, not just the total. Nothing to type, nothing to file.</p>
+        <span class="num num-pink">2</span>
+        <h3>Dockit reads every item</h3>
+        <p>Every line is saved, not just the total. Nothing to type, nothing to file.</p>
       </article>
       <article class="step">
-        <span class="step-num">3</span>
-        <h3>Find it when it matters.</h3>
-        <p>Return deadline? Warranty about to run out? Tax time? Search it, filter it, or send it to your accounting software in seconds.</p>
+        <span class="num num-green">3</span>
+        <h3>Find it when it matters</h3>
+        <p>Returns, warranties, tax time. Search it, or send it to your accounting software.</p>
       </article>
     </div>
-    <p class="soon"><span class="dot"></span><strong>Coming soon:</strong> at shops that use Dockit, your receipt will land in the app automatically when you pay. No photo needed.</p>
+    <p class="soon"><span class="dot"></span><strong>Coming soon:</strong> at shops that use Dockit, receipts will land in the app automatically.</p>
   </div>
 </section>
 
-<!-- FEATURE: ITEMS -->
-<section class="section section-white">
+<!-- EVERY ITEM -->
+<section class="section">
   <div class="wrap feature">
-    <figure class="phone phone-solo"><img src="/images/app-receipt.jpg" alt="An itemised receipt in Dockit with notes, business tag and warranty options" width="640" height="1305" loading="lazy"></figure>
+    <div class="feature-art">
+      <span class="blob blob-pink" aria-hidden="true"></span>
+      <figure class="phone"><img src="images/app-receipt.jpg" alt="An itemised receipt in Dockit with notes, a business tag and warranty options" width="640" height="1305" loading="lazy"></figure>
+    </div>
     <div class="feature-copy">
-      <p class="eyebrow">Every receipt. Every item.</p>
+      <p class="eyebrow">Every receipt, every item</p>
       <h2>Not just the total.</h2>
-      <p class="lead">From your morning coffee to your new laptop, Dockit keeps every line on the receipt. Add a note, tag it to a business, or link a warranty so it's there when something breaks.</p>
-      <ul class="ticks">
-        <li>Search by shop, date, amount or category</li>
-        <li>Keep warranties with the receipt they belong to</li>
-        <li>Spending sorted into categories, with a monthly breakdown</li>
+      <p class="lead">Dockit keeps every line on the receipt. Add a note, tag it to a business, or link a warranty so it's there when something breaks.</p>
+      <ul class="pills">
+        <li>Search by shop or date</li>
+        <li>Warranties kept together</li>
+        <li>Monthly spend breakdown</li>
+        <li>Notes on any receipt</li>
       </ul>
     </div>
   </div>
 </section>
 
-<!-- FEATURE: BUSINESSES -->
+<!-- BUSINESSES -->
 <section class="section">
   <div class="wrap feature feature-flip">
-    <figure class="phone phone-solo"><img src="/images/app-businesses.jpg" alt="Dockit's 'Your businesses' screen with Xero connected and options for MYOB and QuickBooks" width="640" height="1305" loading="lazy"></figure>
+    <div class="feature-art">
+      <span class="blob blob-blue" aria-hidden="true"></span>
+      <figure class="phone"><img src="images/app-businesses.jpg" alt="Dockit's 'Your businesses' screen, with Xero connected and MYOB and QuickBooks available" width="640" height="1305" loading="lazy"></figure>
+    </div>
     <div class="feature-copy">
       <p class="eyebrow">For side hustles and small businesses</p>
       <h2>Sorted by business.<br>Synced to your books.</h2>
-      <p class="lead">Keep personal and business spending apart, with a folder for each business. Connect your accounting software and receipts sync straight across, mapped to the right accounts.</p>
+      <p class="lead">Keep personal and business spending apart, with a folder for each business. Connect your accounting software and receipts sync straight across.</p>
+      <div class="callout">
+        <span class="dot"></span>
+        <p><strong>Never lose a tax claim again.</strong> Every receipt is safe in Dockit and already in your books, so nothing goes missing when it's time to claim.</p>
+      </div>
       <div class="logos">
         <span class="logo-chip xero">XERO</span>
         <span class="logo-chip myob">MYOB</span>
@@ -114,66 +142,55 @@
 </section>
 
 <!-- PRIVACY -->
-<section class="section section-white">
+<section id="privacy" class="section">
   <div class="wrap">
     <div class="privacy">
       <div>
-        <p class="eyebrow eyebrow-light">Privacy</p>
+        <p class="eyebrow eyebrow-blue">Privacy</p>
         <h2>Your data is yours.<br>Full stop.</h2>
-        <p class="lead lead-light">Your receipts say a lot about you. We built Dockit with encryption and full transparency from day one, and nothing is shared unless you choose to share it.</p>
+        <p class="lead">Your receipts say a lot about you. Nothing is shared unless you choose to share it, and you can change your mind any time.</p>
       </div>
-      <ul class="checks">
-        <li>Encrypted at rest</li>
-        <li>Delete your data any time</li>
-        <li>You choose who sees what</li>
-        <li>Never sold. Ever.</li>
+      <ul class="promises">
+        <li><span class="dot"></span>Encrypted at rest</li>
+        <li><span class="dot"></span>Delete your data any time</li>
+        <li><span class="dot"></span>You choose who sees what</li>
+        <li><span class="dot"></span>Never sold. Ever.</li>
       </ul>
     </div>
   </div>
 </section>
 
-<!-- FOUNDER NOTE -->
-<section id="hello" class="section">
+<!-- FOR BUSINESSES -->
+<section id="business" class="section">
   <div class="wrap">
-    <div class="note">
-      <div class="note-avatar" aria-hidden="true">M</div>
+    <div class="biz">
       <div>
-        <h2 class="note-hi">Hi, I'm Maddison.</h2>
-        <p>I run Botellon and Hunter &amp; Scout in Graceville, so I deal with a lot of receipts, both as a business owner and as a customer.</p>
-        <p>The receipt apps I've used are fine, but basic. I wanted one that's actually nice to use, shows every item, talks to my accounting software, and treats my data with respect. So I'm building it.</p>
-        <p>If you've got ideas, questions or just want to say hi, email me. It comes straight to me.</p>
-        <p class="signoff">Maddison<span class="dot"></span></p>
+        <p class="eyebrow">Run a shop, café or venue?</p>
+        <h2 class="h2-sm">An opt-in that means something.</h2>
+        <p>Dockit works with Lightspeed and Square to send digital receipts straight to your customers, and lets them choose to connect with you.</p>
       </div>
+      <a href="mailto:maddison@dockit.au?subject=Dockit%20partnership" class="btn btn-navy">Partner with us</a>
     </div>
   </div>
 </section>
 
-<!-- MERCHANTS -->
-<section id="merchants" class="section section-navy">
-  <div class="wrap merchants-grid">
-    <div>
-      <p class="eyebrow eyebrow-light">For businesses</p>
-      <h2>An opt-in that<br>means something.</h2>
-      <p class="lead lead-light">A paper receipt gives you zero chance of hearing from that customer again. Dockit sends a digital receipt straight to their phone when they pay, and lets them choose to connect with you. No new hardware. No changes for your staff.</p>
-      <a href="mailto:maddison@dockit.au?subject=Dockit%20partnership" class="btn btn-red">Partner with us</a>
-      <p class="small-light">Built by someone who runs venues too.</p>
+<!-- JOIN -->
+<section id="join" class="section section-last">
+  <div class="wrap">
+    <div class="join">
+      <span class="join-blob join-blob-1" aria-hidden="true"></span>
+      <span class="join-blob join-blob-2" aria-hidden="true"></span>
+      <h2>Be first in line.</h2>
+      <p>Dockit is free and coming to iOS and Android. Pop your email in and we'll let you know the moment it's ready.</p>
+      <form name="waitlist" method="POST" data-netlify="true" netlify-honeypot="company" action="./?joined=1#join" class="join-form">
+        <input type="hidden" name="form-name" value="waitlist">
+        <p class="hp"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+        <label for="join-email" class="sr-only">Email address</label>
+        <input id="join-email" name="email" type="email" placeholder="you@email.com" required>
+        <button type="submit">Join the waitlist</button>
+      </form>
+      <p class="join-thanks" id="joined" hidden>Thanks! You're on the list. We'll be in touch.</p>
     </div>
-    <ul class="perks">
-      <li><strong>Works with your POS</strong><span>Live integrations with Lightspeed Series and Square.</span></li>
-      <li><strong>Automatic, every sale</strong><span>Once a sale completes, the receipt goes to your customer's app. Nobody has to do a thing.</span></li>
-      <li><strong>Fewer disputes</strong><span>Customers with their receipts handy make returns and warranty claims easy.</span></li>
-      <li><strong>Your own dashboard</strong><span>Manage your integration and check its status from a simple web console.</span></li>
-    </ul>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <div class="wrap contact">
-    <p class="eyebrow">Get in touch</p>
-    <h2>Let's talk.</h2>
-    <p class="lead">Want early access, or interested in bringing Dockit to your business? Send me an email. I usually reply within 24 hours, and there are no chatbots.</p>
-    <a href="mailto:maddison@dockit.au" class="btn btn-navy btn-big">maddison@dockit.au</a>
   </div>
 </section>
 
@@ -181,9 +198,9 @@
 
 <footer class="footer">
   <div class="wrap footer-inner">
-    <img src="/images/logo-white.svg" alt="Dockit" width="100" height="27">
+    <img src="images/logo-navy.svg" alt="Dockit" width="88" height="24">
     <p>Made in Brisbane · ©2026 Dockit</p>
-    <a href="/privacy-policy">Privacy policy &amp; terms</a>
+    <a href="privacy-policy.html">Privacy policy &amp; terms</a>
   </div>
 </footer>
 
@@ -191,6 +208,7 @@
 var b=document.querySelector('.menu-btn'),m=document.getElementById('menu');
 b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
 m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('open');b.setAttribute('aria-expanded',false)}});
+if(location.search.indexOf('joined=1')>-1){document.getElementById('joined').hidden=false;document.querySelector('.join-form').hidden=true;}
 </script>
 </body>
 </html>
