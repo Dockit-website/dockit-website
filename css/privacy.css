@@ -35,7 +35,7 @@ ul, ol { margin-top: 0px; margin-bottom: 10px; padding-left: 40px; }
 .line-horizontal { z-index: 0; pointer-events: none; background-color: rgb(27, 27, 29); width: 100vw; height: 1px; position: absolute; inset: auto 0% 0%; }
 .container-regular { width: 100%; max-width: 984px; margin-left: auto; margin-right: auto; position: relative; }
 .container-lines-regular { z-index: 1; width: 100%; max-width: 1128px; margin-left: auto; margin-right: auto; padding: 72px 48px; position: relative; }
-.section { z-index: 2; color: rgb(144, 149, 157); background-color: rgb(26, 26, 26); width: 100%; padding-bottom: 0px; padding-left: 0%; padding-right: 0%; position: relative; }
+.section { z-index: 2; color: rgb(144, 149, 157); background-color: rgb(13, 33, 71); width: 100%; padding-bottom: 0px; padding-left: 0%; padding-right: 0%; position: relative; }
 .hero-content { gap: 8px; flex-direction: column; align-items: flex-start; width: 100%; display: flex; }
 .wrap-v-small { gap: 12px; flex-direction: column; display: flex; }
 .max-width-x-small { width: 100%; }
@@ -48,7 +48,7 @@ ul, ol { margin-top: 0px; margin-bottom: 10px; padding-left: 40px; }
 .rich-text-block { color: rgb(255, 255, 255); }
 .list-4, .list-3 { line-height: 23px; }
 .heading-4, .heading-6, .heading-5 { color: rgb(255, 255, 255); }
-.nav { backdrop-filter: blur(8.99995px); background-color: rgb(26, 26, 26); border-width: 0px 0px 1px; border-style: solid; border-color: rgba(255, 255, 255, 0.07); border-image: none; justify-content: space-between; align-items: center; width: 100%; padding: 18px 52px; text-decoration: none; display: flex; }
+.nav { backdrop-filter: blur(8.99995px); background-color: rgb(13, 33, 71); border-width: 0px 0px 1px; border-style: solid; border-color: rgba(255, 255, 255, 0.07); border-image: none; justify-content: space-between; align-items: center; width: 100%; padding: 18px 52px; text-decoration: none; display: flex; }
 .dockit-logo { row-gap: 8px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; max-width: 259px; text-decoration: none; display: flex; }
 .group { object-fit: cover; justify-content: center; align-items: center; width: 116.983px; height: 32px; text-decoration: none; display: flex; }
 .list-5 { column-gap: 28px; flex: 0 1 auto; justify-content: flex-start; align-items: center; text-decoration: none; display: flex; }
@@ -56,7 +56,7 @@ ul, ol { margin-top: 0px; margin-bottom: 10px; padding-left: 40px; }
 .link-style { flex: 0 1 auto; justify-content: flex-start; align-items: flex-start; text-decoration: none; display: flex; }
 .text { color: rgba(255, 255, 255, 0.45); margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 14px; font-weight: 500; line-height: 100%; text-decoration: none; }
 .container { column-gap: 10px; flex: 0 1 auto; justify-content: flex-start; align-items: center; text-decoration: none; display: flex; }
-.link-style-3 { column-gap: 6px; background-color: rgb(224, 58, 58); border-radius: 3px; flex: 0 1 auto; justify-content: flex-start; align-items: center; height: 38px; padding-left: 20px; padding-right: 20px; text-decoration: none; display: flex; }
+.link-style-3 { column-gap: 6px; background-color: rgb(255, 122, 89); border-radius: 3px; flex: 0 1 auto; justify-content: flex-start; align-items: center; height: 38px; padding-left: 20px; padding-right: 20px; text-decoration: none; display: flex; }
 .text-3 { color: rgb(255, 255, 255); margin-top: 0px; margin-bottom: 0px; font-size: 13px; font-weight: 700; line-height: 100%; text-decoration: none; }
 @media screen and (max-width: 991px){
 .link-style { display: none; }

@@ -22,10 +22,10 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-.body { text-align: center; background-color: rgb(14, 14, 14); background-image: url("/images/6937e76a9df4b70ccffdc2a9_Stars.png"); background-position: 0px 0px; background-size: 1440px auto; font-family: Inter, sans-serif; }
+.body { text-align: center; background-color: rgb(9, 24, 54);  background-position: 0px 0px; background-size: 1440px auto; font-family: Inter, sans-serif; }
 .line-horizontal { z-index: 0; pointer-events: none; background-color: rgb(27, 27, 29); width: 100vw; height: 1px; position: absolute; inset: auto 0% 0%; }
-.navbar { z-index: 97; text-align: left; background-color: rgb(26, 26, 26); justify-content: space-between; align-items: center; width: 100vw; margin-left: auto; margin-right: auto; padding-left: 0%; padding-right: 0%; display: flex; }
-.nav { backdrop-filter: blur(8.99995px); background-color: rgb(26, 26, 26); border-width: 0px 0px 1px; border-style: solid; border-color: rgba(255, 255, 255, 0.07); border-image: none; justify-content: space-between; align-items: center; width: 100%; padding: 18px 52px; text-decoration: none; display: flex; }
+.navbar { z-index: 97; text-align: left; background-color: rgb(13, 33, 71); justify-content: space-between; align-items: center; width: 100vw; margin-left: auto; margin-right: auto; padding-left: 0%; padding-right: 0%; display: flex; }
+.nav { backdrop-filter: blur(8.99995px); background-color: rgb(13, 33, 71); border-width: 0px 0px 1px; border-style: solid; border-color: rgba(255, 255, 255, 0.07); border-image: none; justify-content: space-between; align-items: center; width: 100%; padding: 18px 52px; text-decoration: none; display: flex; }
 .dockit-logo { row-gap: 8px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; max-width: 259px; text-decoration: none; display: flex; }
 .group { object-fit: cover; justify-content: center; align-items: center; width: 116.983px; height: 32px; text-decoration: none; display: flex; }
 .list-5 { column-gap: 28px; flex: 0 1 auto; justify-content: flex-start; align-items: center; text-decoration: none; display: flex; }
@@ -38,11 +38,11 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .svg-2 { object-fit: cover; overflow: hidden; }
 .give-your-customers-receipts-theyll-actually-keep { text-align: left; max-width: 479px; }
 .section-style-3 { background-color: rgb(245, 244, 241); flex-direction: column; justify-content: flex-start; align-items: center; width: 100vw; padding: 96px 60px; text-decoration: none; display: flex; }
-.backgroundshadow { background-color: rgb(26, 26, 26); border-radius: 28px; justify-content: center; align-items: flex-start; width: 100%; max-width: 1440px; text-decoration: none; display: flex; position: relative; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.15) 0px 24px 72px; }
+.backgroundshadow { background-color: rgb(13, 33, 71); border-radius: 28px; justify-content: center; align-items: flex-start; width: 100%; max-width: 1440px; text-decoration: none; display: flex; position: relative; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.15) 0px 24px 72px; }
 .background-25 { object-fit: cover; justify-content: center; align-items: center; width: 140px; height: 140px; text-decoration: none; display: flex; position: absolute; top: -80px; left: 1214px; }
 .left-info { row-gap: 14px; border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgba(255, 255, 255, 0.06); border-image: none; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 64px 56px; text-decoration: none; display: flex; }
 .container-35 { flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; text-decoration: none; display: flex; }
-.text-32 { color: rgb(224, 58, 58); text-align: left; letter-spacing: 1.4px; text-transform: uppercase; width: 100%; margin-top: 0px; margin-bottom: 0px; font-size: 10px; font-weight: 500; line-height: 100%; text-decoration: none; }
+.text-32 { color: rgb(255, 122, 89); text-align: left; letter-spacing: 1.4px; text-transform: uppercase; width: 100%; margin-top: 0px; margin-bottom: 0px; font-size: 10px; font-weight: 500; line-height: 100%; text-decoration: none; }
 .lets-talk-wed-love-to-hear-from-you { color: rgb(255, 255, 255); text-align: left; letter-spacing: -1.5px; width: 100%; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 40px; font-weight: 800; line-height: 110%; text-decoration: none; }
 .text-33 { color: rgba(255, 255, 255, 0.38); text-align: left; width: 100%; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 15px; font-weight: 400; line-height: 25.5px; text-decoration: none; }
 .container-36 { row-gap: 14px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; padding-top: 22px; padding-bottom: 26px; text-decoration: none; display: flex; }
@@ -55,7 +55,7 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .overlay-11 { background-color: rgba(22, 59, 153, 0.2); border-radius: 10px; justify-content: center; align-items: center; width: 36px; height: 36px; text-decoration: none; display: flex; }
 .text-36 { color: rgb(255, 255, 255); margin-top: 0px; margin-bottom: 0px; font-size: 13px; font-weight: 700; line-height: 100%; text-decoration: none; }
 .no-support-tickets-no-chatbots-dockit-is-founder-led-and-every-enquiry-goes-straight-to-the-person-b { color: rgba(255, 255, 255, 0.3); text-align: left; margin-top: 0px; margin-bottom: 0px; font-size: 12px; font-weight: 400; line-height: 18.6px; text-decoration: none; }
-.section-style-4 { background-color: rgb(26, 26, 26); flex-direction: column; justify-content: flex-start; align-items: center; width: 100vw; padding: 96px 0px; text-decoration: none; display: flex; position: relative; overflow: hidden; }
+.section-style-4 { background-color: rgb(13, 33, 71); flex-direction: column; justify-content: flex-start; align-items: center; width: 100vw; padding: 96px 0px; text-decoration: none; display: flex; position: relative; overflow: hidden; }
 .container-40 { column-gap: 80px; justify-content: center; align-items: center; width: 100%; margin-left: auto; margin-right: auto; padding-left: 60px; padding-right: 60px; text-decoration: none; display: flex; }
 .copy-left-2 { row-gap: 14px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; max-width: 1440px; padding-top: 8px; padding-bottom: 0px; text-decoration: none; display: flex; }
 .container-41 { column-gap: 8px; flex: 0 1 auto; justify-content: flex-start; align-items: center; text-decoration: none; display: flex; }
@@ -84,7 +84,7 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .container-46 { row-gap: 14px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 8px 52px 0px; text-decoration: none; display: flex; }
 .container-47 { column-gap: 8px; flex: 0 1 auto; justify-content: flex-start; align-items: center; text-decoration: none; display: flex; }
 .horizontal-divider-3 { object-fit: cover; justify-content: center; align-items: center; width: 18px; height: 2px; text-decoration: none; display: flex; }
-.text-42 { color: rgb(224, 58, 58); letter-spacing: 1.4px; text-transform: uppercase; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 10px; font-weight: 500; line-height: 100%; text-decoration: none; }
+.text-42 { color: rgb(255, 122, 89); letter-spacing: 1.4px; text-transform: uppercase; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 10px; font-weight: 500; line-height: 100%; text-decoration: none; }
 .built-for-real-life-not-for-receipts-2 { gap: 8px; flex-flow: column; display: flex; }
 .background-29 { gap: 16px 2px; background-color: rgb(245, 244, 240); border-radius: 20px; grid-template-rows: auto; grid-template-columns: 1fr 1fr 1fr; grid-auto-columns: 1fr; justify-content: center; align-items: flex-start; width: 100%; text-decoration: none; display: grid; overflow: hidden; }
 .background-30 { gap: 8px 20px; background-color: rgb(245, 244, 241); flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 36px 0px; text-decoration: none; display: flex; }
@@ -96,8 +96,8 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .text-44 { color: rgb(26, 26, 26); text-align: left; letter-spacing: -0.4px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 20px; font-weight: 700; line-height: 100%; text-decoration: none; }
 .no-apps-to-open-at-the-register-pay-as-you-always-do-dockit-works-the-moment-the-transaction-complet-2 { color: rgb(124, 124, 124); text-align: left; width: 100%; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 14px; font-weight: 400; line-height: 160%; text-decoration: none; }
 .background-32 { background-color: rgb(238, 242, 255); border-radius: 4px; justify-content: center; align-items: center; width: 48px; height: 48px; text-decoration: none; display: flex; }
-.background-33 { background-color: rgb(253, 240, 240); border-radius: 4px; justify-content: center; align-items: center; width: 48px; height: 48px; text-decoration: none; display: flex; }
-.marquee { background-color: rgb(26, 26, 26); border-style: solid; border-color: rgba(255, 255, 255, 0.05); border-image: none; border-width: 1px 0px; flex-flow: row; justify-content: flex-start; align-items: flex-start; width: 100vw; text-decoration: none; display: flex; overflow: hidden; }
+.background-33 { background-color: rgb(255, 238, 232); border-radius: 4px; justify-content: center; align-items: center; width: 48px; height: 48px; text-decoration: none; display: flex; }
+.marquee { background-color: rgb(13, 33, 71); border-style: solid; border-color: rgba(255, 255, 255, 0.05); border-image: none; border-width: 1px 0px; flex-flow: row; justify-content: flex-start; align-items: flex-start; width: 100vw; text-decoration: none; display: flex; overflow: hidden; }
 .marquee-wrapper { flex: 1 1 0%; justify-content: space-between; align-items: center; padding-top: 0px; padding-bottom: 0px; text-decoration: none; display: flex; overflow: hidden; }
 .container-49 { column-gap: 10px; flex: 0 1 auto; justify-content: flex-start; align-items: center; width: 100%; height: 2rem; padding-left: 28px; padding-right: 28px; text-decoration: none; display: flex; }
 .text-45 { color: rgba(255, 255, 255, 0.52); width: 100%; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 14px; font-weight: 700; line-height: 100%; text-decoration: none; }
@@ -109,7 +109,7 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .frame-30 { gap: 24px 16px; flex-direction: column; grid-template-rows: auto auto; grid-template-columns: 1fr 1fr; grid-auto-columns: 1fr; justify-content: flex-start; align-items: flex-start; width: 100%; text-decoration: none; display: grid; }
 .backgroundborder-8 { background-color: rgb(255, 255, 255); border: 1px solid rgb(227, 226, 223); border-radius: 20px; justify-content: space-between; align-items: center; width: 100%; padding: 32px; text-decoration: none; display: flex; position: relative; overflow: hidden; }
 .frame-32 { row-gap: 18px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; max-width: 353px; text-decoration: none; display: flex; }
-.background-35 { background-color: rgb(253, 240, 240); border-radius: 12px; justify-content: center; align-items: center; width: 46px; height: 46px; text-decoration: none; display: flex; }
+.background-35 { background-color: rgb(255, 238, 232); border-radius: 12px; justify-content: center; align-items: center; width: 46px; height: 46px; text-decoration: none; display: flex; }
 .frame-33 { row-gap: 14px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; text-decoration: none; display: flex; }
 .text-47 { color: rgb(26, 26, 26); text-align: left; letter-spacing: 1px; text-transform: uppercase; width: 100%; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 9px; font-weight: 500; line-height: 100%; text-decoration: none; }
 .frame-34 { row-gap: 10px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; text-decoration: none; display: flex; }
@@ -134,7 +134,7 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .background-40 { object-fit: cover; justify-content: center; align-items: center; width: 124.001px; height: 5.00157px; text-decoration: none; display: flex; }
 .background-41 { object-fit: cover; justify-content: center; align-items: center; width: 68.1963px; height: 5.00226px; text-decoration: none; display: flex; }
 .container-57 { justify-content: space-between; align-items: center; width: 100%; padding-top: 0.000166012px; padding-bottom: 2.99771px; text-decoration: none; display: flex; }
-.backgroundborder-9 { row-gap: 8px; background-color: rgb(26, 26, 26); border: 1px solid rgba(0, 0, 0, 0); border-radius: 20px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 284px; padding: 32px; text-decoration: none; display: flex; overflow: hidden; }
+.backgroundborder-9 { row-gap: 8px; background-color: rgb(13, 33, 71); border: 1px solid rgba(0, 0, 0, 0); border-radius: 20px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 284px; padding: 32px; text-decoration: none; display: flex; overflow: hidden; }
 .overlay-16 { background-color: rgba(255, 255, 255, 0.07); border-radius: 12px; justify-content: center; align-items: center; width: 46px; height: 46px; text-decoration: none; display: flex; }
 .text-50 { color: rgb(255, 255, 255); text-align: left; letter-spacing: 1px; text-transform: uppercase; width: 100%; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 9px; font-weight: 500; line-height: 100%; text-decoration: none; }
 .frame-35 { row-gap: 9px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; text-decoration: none; display: flex; }
@@ -143,7 +143,7 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .backgroundborder-10 { row-gap: 8px; background-color: rgb(255, 255, 255); border: 1px solid rgb(227, 226, 223); border-radius: 20px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 33px; text-decoration: none; display: flex; overflow: hidden; }
 .frame-36 { row-gap: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; text-decoration: none; display: flex; }
 .text-51 { color: rgb(26, 26, 26); text-align: left; letter-spacing: 1px; text-transform: uppercase; width: 100%; margin-top: 0px; margin-bottom: 0px; font-size: 9px; font-weight: 500; line-height: 100%; text-decoration: none; }
-.backgroundborder-11 { background-color: rgb(26, 26, 26); border: 1px solid rgba(0, 0, 0, 0); border-radius: 20px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 32px; text-decoration: none; display: flex; overflow: hidden; }
+.backgroundborder-11 { background-color: rgb(13, 33, 71); border: 1px solid rgba(0, 0, 0, 0); border-radius: 20px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 32px; text-decoration: none; display: flex; overflow: hidden; }
 .container-58 { column-gap: 32px; justify-content: flex-start; align-items: flex-end; width: 100%; text-decoration: none; display: flex; }
 .text-52 { color: rgb(255, 255, 255); text-align: left; letter-spacing: 1px; text-transform: uppercase; margin-top: 0px; margin-bottom: 0px; font-size: 9px; font-weight: 500; line-height: 100%; text-decoration: none; }
 .your-receipts-contain-sensitive-information-we-built-dockit-with-encryption-no-data-selling-and-full-2 { color: rgba(255, 255, 255, 0.38); text-align: left; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 14px; font-weight: 400; line-height: 23.1px; text-decoration: none; }
@@ -152,9 +152,9 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .overlay-18 { background-color: rgba(26, 122, 74, 0.25); border-radius: 9px; justify-content: center; align-items: center; width: 18px; height: 18px; text-decoration: none; display: flex; }
 .text-53 { color: rgba(255, 255, 255, 0.5); margin-top: 0px; margin-bottom: 0px; font-size: 12px; font-weight: 400; line-height: 100%; text-decoration: none; }
 .built-for-real-life-not-for-receipts-3 { color: rgb(26, 26, 26); letter-spacing: -2px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 56.7px; text-decoration: none; }
-.built-for-real-life-not-for-receipts-4 { color: rgb(224, 58, 58); text-align: left; letter-spacing: -2px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 56.7px; text-decoration: none; }
+.built-for-real-life-not-for-receipts-4 { color: rgb(255, 122, 89); text-align: left; letter-spacing: -2px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 56.7px; text-decoration: none; }
 .section-style-6 { gap: 0px; grid-template-rows: auto; grid-template-columns: 1fr 1fr; grid-auto-columns: 1fr; grid-auto-flow: row; justify-content: space-between; align-items: flex-start; width: 100vw; height: 60vh; margin-left: auto; margin-right: auto; text-decoration: none; display: flex; position: relative; overflow: hidden; }
-.left-consumers-2 { background-color: rgb(36, 35, 33); border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgba(255, 255, 255, 0.06); border-image: none; flex-flow: row-reverse; justify-content: flex-start; align-items: flex-start; width: 100%; max-width: 1440px; height: 100%; padding: 42px 56px 80px 52px; text-decoration: none; display: flex; }
+.left-consumers-2 { background-color: rgb(20, 44, 92); border-width: 0px 1px 0px 0px; border-style: solid; border-color: rgba(255, 255, 255, 0.06); border-image: none; flex-flow: row-reverse; justify-content: flex-start; align-items: flex-start; width: 100%; max-width: 1440px; height: 100%; padding: 42px 56px 80px 52px; text-decoration: none; display: flex; }
 .margin-9 { flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; padding-bottom: 0px; text-decoration: none; display: flex; }
 .container-62 { column-gap: 7px; justify-content: flex-start; align-items: center; width: 100%; text-decoration: none; display: flex; }
 .background-43 { object-fit: cover; justify-content: center; align-items: center; width: 6px; height: 6px; text-decoration: none; display: flex; }
@@ -162,19 +162,19 @@ img { vertical-align: middle; max-width: 100%; display: inline-block; }
 .dockit-automatically-captures-your-digital-receipts-the-moment-you-shop-ready-for-returns-warranties-2 { color: rgba(255, 255, 255, 0.45); text-align: left; width: 100%; max-width: 400px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 16px; font-weight: 400; line-height: 27.2px; text-decoration: none; }
 .container-64 { row-gap: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; margin-top: 20px; text-decoration: none; display: flex; }
 .text-55 { color: rgba(255, 255, 255, 0.87); text-align: left; width: 100%; margin-top: 12px; margin-bottom: 0px; font-size: 12px; font-weight: 400; line-height: 100%; text-decoration: none; }
-.right-merchants-2 { background-color: rgb(26, 26, 26); flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 42px 52px 80px 56px; text-decoration: none; display: flex; }
+.right-merchants-2 { background-color: rgb(13, 33, 71); flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; height: 100%; padding: 42px 52px 80px 56px; text-decoration: none; display: flex; }
 .connect-dockit-to-your-pos-and-your-customers-automatically-receive-a-digital-receipt-in-their-docki-2 { color: rgb(223, 220, 216); text-align: left; width: 100%; max-width: 472px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 16px; font-weight: 400; line-height: 27.2px; text-decoration: none; }
 .your-receipts-always-with-you-2 { color: rgb(255, 255, 255); letter-spacing: -2.5px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 100%; text-decoration: none; }
-.your-receipts-always-with-you-3 { color: rgb(224, 58, 58); letter-spacing: -2.5px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 100%; text-decoration: none; }
-.deliver-digital-receipts-instantly-no-hardware-2 { color: rgb(22, 59, 153); letter-spacing: -2.5px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 100%; text-decoration: none; }
+.your-receipts-always-with-you-3 { color: rgb(255, 122, 89); letter-spacing: -2.5px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 100%; text-decoration: none; }
+.deliver-digital-receipts-instantly-no-hardware-2 { color: rgb(107, 142, 255); letter-spacing: -2.5px; margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 54px; font-weight: 800; line-height: 100%; text-decoration: none; }
 .dockit-logo-2 { row-gap: 8px; flex-direction: column; justify-content: flex-start; align-items: flex-start; width: 100%; max-width: 259px; text-decoration: none; display: flex; }
 .group-2 { object-fit: cover; justify-content: center; align-items: center; width: 116.983px; height: 32px; text-decoration: none; display: flex; }
-.footer-3 { background-color: rgb(26, 26, 26); border-width: 1px 0px 0px; border-style: solid; border-color: rgba(255, 255, 255, 0.06); border-image: none; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%; padding: 36px 52px; text-decoration: none; display: flex; }
+.footer-3 { background-color: rgb(13, 33, 71); border-width: 1px 0px 0px; border-style: solid; border-color: rgba(255, 255, 255, 0.06); border-image: none; flex-wrap: wrap; justify-content: space-between; align-items: center; width: 100%; padding: 36px 52px; text-decoration: none; display: flex; }
 .container-69 { column-gap: 24px; flex: 0 1 auto; justify-content: flex-start; align-items: flex-start; text-decoration: none; display: flex; }
 .text-58 { color: rgb(247, 246, 245); margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 12px; font-weight: 400; line-height: 16px; text-decoration: none; }
 .container-70 { flex-direction: column; justify-content: flex-start; align-items: flex-start; text-decoration: none; display: flex; }
 .button-3 { background-color: rgb(22, 59, 153); border-radius: 4px; padding: 12px 26px; font-weight: 700; }
-.button-3.red { background-color: rgb(224, 58, 58); }
+.button-3.red { background-color: rgb(255, 122, 89); }
 .div-block-2 { flex-flow: column; width: 100%; max-width: 1440px; display: flex; }
 .marquee-track { flex: 1 1 0%; justify-content: space-between; align-items: center; padding-top: 16px; padding-bottom: 16px; text-decoration: none; display: flex; overflow: visible; }
 .marquee-content { gap: 38px; flex-flow: row; justify-content: flex-start; align-items: center; width: 100%; display: flex; }
