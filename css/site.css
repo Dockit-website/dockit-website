@@ -138,6 +138,17 @@ p{margin:0 0 12px}
 .logo-chip{height:50px;min-width:74px;padding:0 14px;border-radius:16px;color:#fff;font-weight:800;font-size:15px;display:inline-flex;align-items:center;justify-content:center}
 .xero{background:#0b7fb5}.myob{background:#6a2fb5}.qbo{background:#2a8a1f}
 
+/* showcase */
+.showcase{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:900px;margin:0 auto}
+.show{margin:0;display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center}
+.show-art{position:relative;height:500px;width:100%;display:flex;align-items:center;justify-content:center}
+.show-art .blob{width:400px;height:400px;left:50%;top:50%;margin:-200px 0 0 -200px}
+.show-art .blob-pink{background:var(--pink)}
+.show-art .blob-blue{background:var(--blue)}
+.show-art .phone{width:230px}
+.show figcaption{font-weight:600;font-size:17px;max-width:320px}
+.logos-center{justify-content:center;margin-top:32px}
+
 /* privacy */
 .privacy{background:var(--blue);border-radius:40px;padding:56px;display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
 .privacy .lead{color:#3a4668;margin:0}
@@ -187,6 +198,10 @@ p{margin:0 0 12px}
 }
 /* phone */
 @media (max-width:760px){
+  .showcase{grid-template-columns:1fr;gap:32px}
+  .show-art{height:420px}
+  .show-art .blob{width:320px;height:320px;margin:-160px 0 0 -160px}
+  .show-art .phone{width:200px}
   .bento,.box-steps{grid-template-columns:1fr}
   .box-steps{gap:24px}
   .road{grid-template-columns:1fr;gap:8px}
