@@ -158,6 +158,7 @@ p{margin:0 0 12px}
 /* about */
 .about{max-width:960px;display:grid;grid-template-columns:280px 1fr;gap:48px;align-items:center}
 .about-photo{width:280px;height:350px;object-fit:cover;border-radius:140px 140px 32px 32px}
+.about .lead a{color:var(--navy);font-weight:700;text-underline-offset:3px}
 .text-link{font-weight:700;font-size:17px;text-underline-offset:4px}
 
 /* for businesses */
