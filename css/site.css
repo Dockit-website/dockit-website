@@ -75,6 +75,9 @@ p{margin:0 0 12px}
 .mission{background:var(--green);border-radius:40px;padding:56px}
 .mission-head{max-width:640px;margin-bottom:32px}
 .mission-head .lead{color:#3c5a4a;margin:0}
+.stat{margin:20px 0 0;background:#fff;border-radius:18px;padding:16px 20px;font-size:17px;color:#2c3e35}
+.stat strong{color:#1d6b42;font-size:22px;letter-spacing:-.02em}
+.stat a{color:#1d6b42;font-weight:600;font-size:14px;white-space:nowrap}
 .mission-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .mcard{background:#fff;border-radius:24px;padding:28px}
 .mcard h3{font-size:21px}
