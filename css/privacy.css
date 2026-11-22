@@ -56,7 +56,7 @@ ul, ol { margin-top: 0px; margin-bottom: 10px; padding-left: 40px; }
 .link-style { flex: 0 1 auto; justify-content: flex-start; align-items: flex-start; text-decoration: none; display: flex; }
 .text { color: rgba(255, 255, 255, 0.45); margin-top: 0px; margin-bottom: 0px; font-family: Inter, sans-serif; font-size: 14px; font-weight: 500; line-height: 100%; text-decoration: none; }
 .container { column-gap: 10px; flex: 0 1 auto; justify-content: flex-start; align-items: center; text-decoration: none; display: flex; }
-.link-style-3 { column-gap: 6px; background-color: rgb(255, 122, 89); border-radius: 3px; flex: 0 1 auto; justify-content: flex-start; align-items: center; height: 38px; padding-left: 20px; padding-right: 20px; text-decoration: none; display: flex; }
+.link-style-3 { column-gap: 6px; background-color: rgb(224, 58, 58); border-radius: 3px; flex: 0 1 auto; justify-content: flex-start; align-items: center; height: 38px; padding-left: 20px; padding-right: 20px; text-decoration: none; display: flex; }
 .text-3 { color: rgb(255, 255, 255); margin-top: 0px; margin-bottom: 0px; font-size: 13px; font-weight: 700; line-height: 100%; text-decoration: none; }
 @media screen and (max-width: 991px){
 .link-style { display: none; }
