@@ -78,7 +78,10 @@ p{margin:0 0 12px}
 .mission-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .mcard{background:#fff;border-radius:24px;padding:28px}
 .mcard h3{font-size:21px}
+.mcard{display:flex;flex-direction:column}
 .mcard p{color:var(--muted);margin:0;font-size:16px}
+.mcard .src{margin-top:auto;padding-top:16px;font-size:14px;line-height:1.6}
+.src a{color:#1d6b42;font-weight:600;text-underline-offset:3px}
 
 /* steps */
 .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
