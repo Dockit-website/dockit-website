@@ -59,13 +59,6 @@ p{margin:0 0 14px}
 .float-chip{position:absolute;z-index:3;right:0;bottom:70px;background:var(--white);border:1px solid var(--line);border-radius:999px;padding:12px 18px;font-weight:600;font-size:15px;display:flex;align-items:center;gap:10px;box-shadow:0 10px 30px rgba(13,33,71,.12);color:var(--navy)}
 .phone-solo{width:300px;justify-self:center}
 
-/* strip */
-.strip{background:var(--navy);color:#fff;overflow:hidden;padding:18px 0}
-.strip-track{display:flex;align-items:center;gap:28px;width:max-content;animation:scroll 34s linear infinite;font-weight:700;font-size:20px;white-space:nowrap;letter-spacing:-.01em}
-.strip i{width:8px;height:8px;background:var(--red);border-radius:2px}
-@keyframes scroll{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.strip-track{animation:none}}
-
 /* sections */
 .section{padding:104px 0}
 .section-white{background:var(--white)}
