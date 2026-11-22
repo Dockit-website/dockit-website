@@ -73,7 +73,8 @@ p{margin:0 0 12px}
 /* mission */
 .eyebrow-green{color:#1d6b42}
 .mission{background:var(--green);border-radius:40px;padding:56px}
-.mission-head{max-width:640px;margin-bottom:32px}
+.mission-head{max-width:720px;margin:0 auto 32px;text-align:center}
+.mission-head .stat{display:inline-block}
 .mission-head .lead{color:#3c5a4a;margin:0}
 .stat{margin:20px 0 0;background:#fff;border-radius:18px;padding:16px 20px;font-size:17px;color:#2c3e35}
 .stat strong{color:#1d6b42;font-size:22px;letter-spacing:-.02em}
