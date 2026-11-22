@@ -123,6 +123,19 @@ p{margin:0 0 12px}
 .ficon{width:48px;height:48px;border-radius:14px;background:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
 .ficon svg{width:24px;height:24px;fill:none;stroke:var(--red);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 
+/* orbit */
+.orbit{display:grid;grid-template-columns:1fr 340px 1fr;gap:32px;align-items:center;margin-top:32px}
+.orb-phone{position:relative;height:560px;display:flex;align-items:center;justify-content:center}
+.orb-phone .blob{background:var(--blue);width:380px;height:380px;left:50%;top:50%;margin:-190px 0 0 -190px}
+.orb-phone .phone{width:250px}
+.orb-col{display:grid;gap:28px;position:relative;z-index:2}
+.orb-col.l{text-align:right}
+.orb-col.l .ficon{margin-left:auto}
+.orb-item h3{font-size:19px}
+.orb-item p{margin:0;color:var(--muted);font-size:15px}
+.orb-item .ficon{background:var(--pink)}
+.orb-col.r .ficon{background:var(--blue)}
+
 /* features */
 .feature{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .feature-flip .feature-art{order:2}
@@ -201,6 +214,10 @@ p{margin:0 0 12px}
   .feature-art{height:480px}
   .steps,.mission-cards{grid-template-columns:1fr}
   .bento{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .orbit{grid-template-columns:1fr;gap:24px}
+  .orb-col.l{text-align:left}
+  .orb-col.l .ficon{margin-left:0}
+  .orb-phone{height:500px;order:-1}
   .biz{flex-direction:column;align-items:flex-start}
 }
 /* phone */
