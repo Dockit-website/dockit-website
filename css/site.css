@@ -86,15 +86,16 @@ p{margin:0 0 12px}
 .mcard .src{margin-top:auto;padding-top:16px;font-size:14px;line-height:1.6}
 .src a{color:#1d6b42;font-weight:600;text-underline-offset:3px}
 
-.road{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:28px;background:#fff;border-radius:24px;overflow:hidden}
-.road-step{padding:26px 28px;border-right:1px solid #d9ece1;position:relative}
-.road-step:last-child{border-right:0}
-.road-step h3{font-size:20px;margin:10px 0 6px}
-.road-step p{margin:0;font-size:15px;color:var(--muted)}
-.road-tag{display:inline-block;font-weight:700;font-size:13px;padding:4px 12px;border-radius:999px;background:var(--green);color:#1d6b42}
+.road{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:stretch;gap:16px}
+.road-step{background:var(--soft);border-radius:28px;padding:30px}
+.road-step h3{font-size:22px;margin:12px 0 6px}
+.road-step p{margin:0;font-size:16px;color:var(--muted)}
+.road-tag{display:inline-block;font-weight:700;font-size:13px;padding:5px 12px;border-radius:999px;background:var(--green);color:#1d6b42}
 .road-now .road-tag{background:var(--navy);color:#fff}
-.road-goal{background:#f4fbf7}
+.road-goal{background:var(--green)}
 .road-goal .road-tag{background:#1d6b42;color:#fff}
+.road-arrow{display:flex;align-items:center;color:var(--red)}
+.road-arrow svg{width:44px;height:22px}
 
 /* steps */
 .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
@@ -167,12 +168,14 @@ p{margin:0 0 12px}
   .feature,.privacy{grid-template-columns:1fr}
   .feature-flip .feature-art{order:0}
   .feature-art{height:480px}
-  .steps,.mission-cards,.road{grid-template-columns:1fr}
-  .road-step{border-right:0;border-bottom:1px solid #d9ece1}
+  .steps,.mission-cards{grid-template-columns:1fr}
   .biz{flex-direction:column;align-items:flex-start}
 }
 /* phone */
 @media (max-width:760px){
+  .road{grid-template-columns:1fr;gap:8px}
+  .road-arrow{justify-content:center}
+  .road-arrow svg{transform:rotate(90deg)}
   body{font-size:16px}
   .wrap{padding:0 20px}
   .nav-inner{height:68px}
