@@ -68,6 +68,16 @@ p{margin:0 0 12px}
 .section-last{padding-bottom:72px}
 .center-head{text-align:center;margin-bottom:32px}
 
+/* mission */
+.eyebrow-green{color:#1d6b42}
+.mission{background:var(--green);border-radius:40px;padding:56px}
+.mission-head{max-width:640px;margin-bottom:32px}
+.mission-head .lead{color:#3c5a4a;margin:0}
+.mission-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.mcard{background:#fff;border-radius:24px;padding:28px}
+.mcard h3{font-size:21px}
+.mcard p{color:var(--muted);margin:0;font-size:16px}
+
 /* steps */
 .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .step{background:var(--soft);border-radius:28px;padding:32px}
@@ -139,7 +149,7 @@ p{margin:0 0 12px}
   .feature,.privacy{grid-template-columns:1fr}
   .feature-flip .feature-art{order:0}
   .feature-art{height:480px}
-  .steps{grid-template-columns:1fr}
+  .steps,.mission-cards{grid-template-columns:1fr}
   .biz{flex-direction:column;align-items:flex-start}
 }
 /* phone */
@@ -162,7 +172,7 @@ p{margin:0 0 12px}
   .feature-art{height:420px}
   .feature-art .blob{width:340px;height:340px;margin:-170px 0 0 -170px}
   .feature-art .phone{width:210px}
-  .privacy{padding:36px 24px;border-radius:32px}
+  .privacy,.mission{padding:36px 24px;border-radius:32px}
   .about{grid-template-columns:1fr;gap:28px}
   .about-photo{width:240px;height:300px}
   .biz{padding:32px 24px;border-radius:32px}
