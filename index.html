@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dockit | Every receipt, every item, sorted</title>
-<meta name="description" content="Dockit is a free receipt app that keeps every receipt, down to every item, in one place and syncs with your accounting software. Made in Brisbane.">
+<meta name="description" content="Dockit is a free receipt app that keeps every receipt, down to every item, in one place and syncs with Xero, MYOB and QuickBooks. Made in Brisbane.">
 <meta property="og:title" content="Dockit | Every receipt, every item, sorted">
 <meta property="og:description" content="A free receipt app that keeps every receipt, down to every item, and syncs with your accounting software.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="/css/site.css" rel="stylesheet">
 </head>
 <body>
@@ -25,7 +25,7 @@
       <a href="#how">How it works</a>
       <a href="#merchants">For businesses</a>
       <a href="#hello">About</a>
-      <a href="#contact" class="btn btn-red btn-sm">Get in touch</a>
+      <a href="#contact" class="btn btn-navy btn-sm">Get in touch</a>
     </nav>
   </div>
 </header>
@@ -36,36 +36,18 @@
 <section class="hero">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <p class="sticker">Free · iOS &amp; Android coming soon</p>
+      <p class="pill"><span class="dot"></span>Free · iOS &amp; Android coming soon</p>
       <h1>Your receipts.<br><span class="red">Always</span> with you.</h1>
       <p class="lead">Every receipt, down to every item, in one free app. It syncs with your accounting software, and at shops that use Dockit, your receipt lands the moment you pay.</p>
       <div class="hero-ctas">
         <a href="#contact" class="btn btn-navy">Get early access</a>
-        <a href="#how" class="btn btn-ghost">See how it works</a>
+        <a href="#how" class="btn btn-outline">See how it works</a>
       </div>
-      <p class="scribble scribble-hero" aria-hidden="true">no more crumpled receipts in your bag ↓</p>
     </div>
-
-    <div class="hero-art" aria-hidden="true">
-      <div class="receipt receipt-back">
-        <p class="r-shop">HARDWARE CO.</p>
-        <div class="r-line"><span>Paint roller</span><span>$18.40</span></div>
-        <div class="r-line"><span>Drop sheet</span><span>$24.00</span></div>
-        <div class="r-line r-total"><span>TOTAL</span><span>$42.40</span></div>
-      </div>
-      <div class="receipt receipt-front">
-        <p class="r-shop">THE CORNER CAFÉ</p>
-        <p class="r-meta">Sat 9:14am · Table 4</p>
-        <div class="r-dash"></div>
-        <div class="r-line"><span>Flat white ×2</span><span>$10.00</span></div>
-        <div class="r-line"><span>Banana bread</span><span>$6.50</span></div>
-        <div class="r-line"><span>Smashed avo</span><span>$21.00</span></div>
-        <div class="r-dash"></div>
-        <div class="r-line r-total"><span>TOTAL</span><span>$37.50</span></div>
-        <p class="r-stamp">SAVED TO DOCKIT ✓</p>
-      </div>
-      <p class="scribble scribble-art">every item, not just the total!</p>
-      <svg class="arrow-art" viewBox="0 0 80 60" fill="none"><path d="M5 8 C 30 4, 60 14, 70 48" stroke="#E03A3A" stroke-width="2.5" stroke-linecap="round"/><path d="M60 42 L70 50 L74 38" stroke="#E03A3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div class="hero-phones">
+      <figure class="phone phone-back"><img src="/images/app-receipt.jpg" alt="A receipt in the Dockit app showing each item, the total and 'Stored in Dockit'" width="640" height="1305"></figure>
+      <figure class="phone phone-front"><img src="/images/app-home.jpg" alt="The Dockit app home screen: 'Hi, Maddison' with this month's receipts" width="640" height="1305"></figure>
+      <div class="float-chip"><span class="dot"></span>Stored in Dockit</div>
     </div>
   </div>
 </section>
@@ -73,8 +55,8 @@
 <!-- STRIP -->
 <div class="strip" aria-hidden="true">
   <div class="strip-track">
-    <span>Returns</span><i>✦</i><span>Warranty claims</span><i>✦</i><span>Tax time</span><i>✦</i><span>Accounting sync</span><i>✦</i><span>Spend insights</span><i>✦</i><span>Expense reports</span><i>✦</i>
-    <span>Returns</span><i>✦</i><span>Warranty claims</span><i>✦</i><span>Tax time</span><i>✦</i><span>Accounting sync</span><i>✦</i><span>Spend insights</span><i>✦</i><span>Expense reports</span><i>✦</i>
+    <span>Returns</span><i></i><span>Warranty claims</span><i></i><span>Tax time</span><i></i><span>Accounting sync</span><i></i><span>Spend insights</span><i></i><span>Expense reports</span><i></i>
+    <span>Returns</span><i></i><span>Warranty claims</span><i></i><span>Tax time</span><i></i><span>Accounting sync</span><i></i><span>Spend insights</span><i></i><span>Expense reports</span><i></i>
   </div>
 </div>
 
@@ -85,17 +67,17 @@
     <h2>Built for real life.<br>Not for <span class="red">receipts.</span></h2>
     <div class="steps">
       <article class="step">
-        <span class="step-num">01</span>
+        <span class="step-num">1</span>
         <h3>Shop like normal.</h3>
         <p>At shops that use Dockit, scan your Dockit barcode in the app or your wallet. No personal details needed.</p>
       </article>
-      <article class="step step-tilt">
-        <span class="step-num">02</span>
-        <h3>Your receipt just turns up.</h3>
+      <article class="step">
+        <span class="step-num">2</span>
+        <h3>Your receipt turns up.</h3>
         <p>Every line, every item, straight into Dockit. Nothing to type, nothing to file.</p>
       </article>
       <article class="step">
-        <span class="step-num">03</span>
+        <span class="step-num">3</span>
         <h3>Find it when it matters.</h3>
         <p>Return deadline? Warranty about to run out? Tax time? Search it, filter it, or send it to your accounting software in seconds.</p>
       </article>
@@ -103,59 +85,71 @@
   </div>
 </section>
 
-<!-- FEATURES -->
-<section class="section section-paper">
+<!-- FEATURE: ITEMS -->
+<section class="section section-white">
+  <div class="wrap feature">
+    <figure class="phone phone-solo"><img src="/images/app-receipt.jpg" alt="An itemised receipt in Dockit with notes, business tag and warranty options" width="640" height="1305" loading="lazy"></figure>
+    <div class="feature-copy">
+      <p class="eyebrow">Every receipt. Every item.</p>
+      <h2>Not just the total.</h2>
+      <p class="lead">From your morning coffee to your new laptop, Dockit keeps every line on the receipt. Add a note, tag it to a business, or link a warranty so it's there when something breaks.</p>
+      <ul class="ticks">
+        <li>Search by shop, date, amount or category</li>
+        <li>Keep warranties with the receipt they belong to</li>
+        <li>Spending sorted into categories, with a monthly breakdown</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURE: BUSINESSES -->
+<section class="section">
+  <div class="wrap feature feature-flip">
+    <figure class="phone phone-solo"><img src="/images/app-businesses.jpg" alt="Dockit's 'Your businesses' screen with Xero connected and options for MYOB and QuickBooks" width="640" height="1305" loading="lazy"></figure>
+    <div class="feature-copy">
+      <p class="eyebrow">For side hustles and small businesses</p>
+      <h2>Sorted by business.<br>Synced to your books.</h2>
+      <p class="lead">Keep personal and business spending apart, with a folder for each business. Connect your accounting software and receipts sync straight across, mapped to the right accounts.</p>
+      <div class="logos">
+        <span class="logo-chip xero">XERO</span>
+        <span class="logo-chip myob">MYOB</span>
+        <span class="logo-chip qbo">QBO</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRIVACY -->
+<section class="section section-white">
   <div class="wrap">
-    <p class="eyebrow">What you get</p>
-    <h2>Everything your receipts deserve.</h2>
-    <div class="cards">
-      <article class="card card-wide">
-        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/></svg></div>
-        <h3>Every receipt. Every item.</h3>
-        <p>From your morning coffee to your new laptop. See every item, not just the total, and search by shop, date, amount or category.</p>
-      </article>
-      <article class="card card-navy">
-        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div>
-        <h3>Warranties, sorted.</h3>
-        <p>Keep warranty documents, serial numbers and purchase details together, ready for when something breaks.</p>
-      </article>
-      <article class="card">
-        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
-        <h3>Know where it all goes.</h3>
-        <p>Spending sorted into categories automatically, with a simple monthly breakdown.</p>
-      </article>
-      <article class="card">
-        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5.3L20 9M20 4v5h-5M20 12a8 8 0 0 1-14 5.3L4 15M4 20v-5h5"/></svg></div>
-        <h3>Syncs with your accounts.</h3>
-        <p>Connects with the main accounting software, so no more spreadsheets at tax time.</p>
-      </article>
-      <article class="card card-wide card-privacy">
-        <div>
-          <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
-          <h3>Your data is yours. Full stop.</h3>
-          <p>Your receipts say a lot about you. We built Dockit with encryption and full transparency from day one, and nothing is shared unless you choose to share it.</p>
-        </div>
-        <ul class="checks">
-          <li>Encrypted at rest</li>
-          <li>Delete your data any time</li>
-          <li>You choose who sees what</li>
-          <li>Never sold. Ever.</li>
-        </ul>
-        <p class="stamp" aria-hidden="true">NEVER<br>SOLD</p>
-      </article>
+    <div class="privacy">
+      <div>
+        <p class="eyebrow eyebrow-light">Privacy</p>
+        <h2>Your data is yours.<br>Full stop.</h2>
+        <p class="lead lead-light">Your receipts say a lot about you. We built Dockit with encryption and full transparency from day one, and nothing is shared unless you choose to share it.</p>
+      </div>
+      <ul class="checks">
+        <li>Encrypted at rest</li>
+        <li>Delete your data any time</li>
+        <li>You choose who sees what</li>
+        <li>Never sold. Ever.</li>
+      </ul>
     </div>
   </div>
 </section>
 
 <!-- FOUNDER NOTE -->
 <section id="hello" class="section">
-  <div class="wrap note-wrap">
+  <div class="wrap">
     <div class="note">
-      <p class="note-hi">Hi, I'm Maddison 👋</p>
-      <p>I run Botellon and Hunter &amp; Scout in Graceville, so I deal with a lot of receipts, both as a business owner and as a customer.</p>
-      <p>The receipt apps I've used are fine, but basic. I wanted one that's actually nice to use, shows every item, talks to my accounting software, and treats my data with respect. So I'm building it.</p>
-      <p>If you've got ideas, questions or just want to say hi, email me. It comes straight to me.</p>
-      <p class="signoff">Maddison x</p>
+      <div class="note-avatar" aria-hidden="true">M</div>
+      <div>
+        <h2 class="note-hi">Hi, I'm Maddison.</h2>
+        <p>I run Botellon and Hunter &amp; Scout in Graceville, so I deal with a lot of receipts, both as a business owner and as a customer.</p>
+        <p>The receipt apps I've used are fine, but basic. I wanted one that's actually nice to use, shows every item, talks to my accounting software, and treats my data with respect. So I'm building it.</p>
+        <p>If you've got ideas, questions or just want to say hi, email me. It comes straight to me.</p>
+        <p class="signoff">Maddison<span class="dot"></span></p>
+      </div>
     </div>
   </div>
 </section>
@@ -165,7 +159,7 @@
   <div class="wrap merchants-grid">
     <div>
       <p class="eyebrow eyebrow-light">For businesses</p>
-      <h2>An opt-in that<br><span class="red-light">means something.</span></h2>
+      <h2>An opt-in that<br>means something.</h2>
       <p class="lead lead-light">A paper receipt gives you zero chance of hearing from that customer again. Dockit sends a digital receipt straight to their phone when they pay, and lets them choose to connect with you. No new hardware. No changes for your staff.</p>
       <a href="mailto:maddison@dockit.au?subject=Dockit%20partnership" class="btn btn-red">Partner with us</a>
       <p class="small-light">Built by someone who runs venues too.</p>
@@ -184,9 +178,8 @@
   <div class="wrap contact">
     <p class="eyebrow">Get in touch</p>
     <h2>Let's talk.</h2>
-    <p class="lead">Want early access, or interested in bringing Dockit to your business? Send me an email. I usually reply within 24 hours.</p>
+    <p class="lead">Want early access, or interested in bringing Dockit to your business? Send me an email. I usually reply within 24 hours, and there are no chatbots.</p>
     <a href="mailto:maddison@dockit.au" class="btn btn-navy btn-big">maddison@dockit.au</a>
-    <p class="scribble scribble-contact" aria-hidden="true">no chatbots, promise!</p>
   </div>
 </section>
 
